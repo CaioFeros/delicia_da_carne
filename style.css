@@ -1,0 +1,234 @@
+    body {
+      display: block;
+      background-color: #c4c4c4;
+      color: #333;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 20px;
+    }
+
+header {
+  width: 100%;
+  text-align: center;
+  background-color: #fc5c5c;
+  color: #fff;
+  padding: 20px;
+  font-family: 'Abril Fatface', cursive;
+}
+
+
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+
+header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+
+header li {
+  margin: 0 10px;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+nav{
+  background-color: #fa7c7c;
+
+}
+
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      background-color: #fff8f8;
+    }
+
+    .exoticos,
+    .internacionais,
+    .nacionais {
+      display: flex;
+      align-content: flex-start;
+      flex-wrap: wrap;
+    }
+
+    .produtos {
+      width: 280px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      background-color: #F5F5F5;
+      border: 1px solid #ccc;
+      padding: 20px;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+    }
+
+    img {
+      width: 280px;
+      height: 230px;
+      object-fit: cover;
+      border-radius: 20px;
+      margin-bottom: 10px;
+    }
+
+    p {
+
+      margin: 10px 0 0 0;
+    }
+
+    .titulo {
+      margin-top: 40px;
+      margin-bottom: 20px;
+      font-size: 32px;
+      font-family: 'Abril Fatface', cursive;
+      text-align: center;
+      color: #fc5c5c;
+      text-transform: uppercase;
+    }
+
+    p,
+    h1,
+    h3 {
+      color: #333;
+    }
+
+    header h1,
+    header h3 {
+      color: #fff;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      letter-spacing: 2px;
+    }
+
+    header {
+      letter-spacing: 2px;
+    }
+
+    footer {
+  background-color: #F5F5F5;
+  color: #333;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+/* Estilos para o elemento de contato */
+.Contato {
+  flex-basis: 30%;
+}
+
+.Contato h2 {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.faleconosco {
+  border-top: 1px solid #CCC;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.faleconosco h3 {
+  font-size: 16px;
+  margin-top: 0;
+}
+
+.Contato p {
+  margin-top: 20px;
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+#formfaleconosco {
+  margin-top: 20px;
+}
+
+#formfaleconosco label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#formfaleconosco input[type="text"],
+#formfaleconosco input[type="email"],
+#formfaleconosco textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px solid #CCC;
+  font-size: 14px;
+}
+
+#formfaleconosco textarea {
+  height: 100px;
+}
+
+#formfaleconosco button[type="submit"] {
+  background-color: #333;
+  color: #FFF;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+#formfaleconosco button[type="submit"]:hover {
+  background-color: #444;
+}
+
+/* Estilos para o elemento de funcionamento */
+.funcionamento {
+  flex-basis: 25%;
+}
+
+.funcionamento h2 {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.funcionamento p {
+  margin-top: 20px;
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+/* Estilos para o elemento de localização */
+.localizacao {
+  flex-basis: 30%;
+}
+
+.localizacao h4 {
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.localizacao p {
+  margin-top: 20px;
+  margin-bottom: 0;
+  line-height: 1.5;
+}
